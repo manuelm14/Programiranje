@@ -25,7 +25,7 @@ while True:
     try:
         opcija = int(input("Izaberite operaciju (1 / 2 / 3/0):"))
     except Exception as greska:
-        print(f"Pogrešan unos. Molimo unesite brojeveod 1 do 3. \nOdaberite 0 za izlaz.")
+        print(f"Pogrešan unos. Molimo unesite brojeve od 1 do 3. \nOdaberite 0 za izlaz.")
         continue
     #Struktura grananja
     if opcija == 1:     # == != < > <> >= <= - operatori usporedbe
